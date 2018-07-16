@@ -1,0 +1,72 @@
+Steps to create MyEshop.com
+
+#1 DTB conceptual model (paper, workbench, ..)
+
+#2 Create the DTB (PHPMYADMIN or shell)
+
+#3 Design about folders/files (2 websites > F & B)
+    > MyEshop
+
+
+        >ADMIN
+
+            >CSS
+
+            >JS
+
+            index.php
+            manage_product.php
+
+        > ASSETS
+            > CSS
+            > JS
+
+        >CSS
+
+        >JS
+
+        >INCLUDE
+            Init.php
+            function.php
+            Header.php
+            footer.php
+
+        >UPLOADS
+            >IMG
+
+
+        Index.PHP
+        Signup.PHP
+        signin.php
+        profile.php
+        shop.php
+        contact.php
+
+#4 Connect with DTB(init.php) + start the session + declare usefull variable/functions
+
+#5 index.php : take care of the front + cut the code regarding header.php and footer.php
+Add the init.php + functions.php
+
+#6 Develop the sign up.php (form + security + INSERT)
+
+#7 Develop the signin.php (Form + security + SELECT)
+
+#8 profile.php : display some data
+
+#9 Add a logout option
+
+#10  Improve the menu to be dynamic regarding the user status
+  Create functionfor users status
+
+#11 Backoffice : develop the admin folders
+Front + dynamic menu
+Add a product
+Display the product (select)
+Update/delete a product
+
+#12 take care about the eShop
+display the category info (searachble)Display all the product(and make it clickable)
+
+#13 Display the informations about one specific product_page.PHP
+
+#14 Implement a basket 
